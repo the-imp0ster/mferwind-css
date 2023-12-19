@@ -34,6 +34,15 @@
 .text-center { text-align: center; }
 .text-right { text-align: right; }
 .text-left { text-align: left; }
+.items-center { align-items: center; }
+.items-right { align-items: right; }
+.items-left { align-items: left; }
+
+
+/* justification */
+.between { justify-content: space-between}
+.around { justify-content: space-around}
+.evenly{ justify-content: space-evenly}
 
 /* margin */
 .m-0 { margin: 0; }
@@ -156,4 +165,11 @@
 .border-white {
     border-color: var(--white);
 }
+
+/* border radius */
+.radius-s { border-radius: 5px; }
+.radius-m { border-radius: 10px; }
+.radius-l { border-radius: 15px; }
+.radius-spicy { border-radius: 2px 20px 2px 20px; }
+.radius-round { border-radius: 50%; }
 
