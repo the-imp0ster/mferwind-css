@@ -1,0 +1,49 @@
+:root {
+    /* mfer background color variables */
+    --bg-blue: #5dd3ff;
+    --bg-green: #cafe80;
+    --bg-red: #ff7077;
+    --bg-yellow: #ffe260;
+    --bg-orange: #ffb470;
+    --bg-grey: #7c7c7c;
+    --black: #000000;
+    --white: #FFFFFF;
+
+    /* TODO trait colors, etc */
+    /* i think m4rsh may have done an api for this */
+
+}
+
+/* utility classes for basic display */
+.flex { display: flex; }
+.flex-r { flex-direction: row; }
+.flex-c { flex-direction: column; }
+.text-center { text-align: center; }
+
+/* utility classes for mferish background color */
+.bg-bg-blue { background-color: var(--bg-blue); }
+.bg-bg-green { background-color: var(--bg-green); }
+.bg-bg-red { background-color: var(--bg-red); }
+.bg-bg-yellow { background-color: var(--bg-yellow); }
+.bg-bg-orange { background-color: var(--bg-orange); }
+.bg-bg-grey { background-color: var(--bg-grey); }
+.bg-bg-black { background-color: var(--bg-black); }
+.bg-bg-white { background-color: var(--bg-white); }
+
+
+/* utility classes for mferish text color */
+.text-bg-blue { color: var(--bg-blue); }
+.text-bg-green { color: var(--bg-green); }
+.text-bg-red { color: var(--bg-red); }
+.text-bg-yellow { color: var(--bg-yellow); }
+.text-bg-orange { color: var(--bg-orange); }
+.text-bg-grey { color: var(--bg-grey); }
+.text-bg-black { color: var(--bg-black); }
+.text-bg-white { color: var(--bg-white); }
+
+
+/* utility classes for borders */
+.border-dashed-bg-blue-10 {
+    border: 10px dashed var(--bg-blue);
+}
+
