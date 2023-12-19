@@ -1,6 +1,6 @@
 # mferwind css library
 
-mferwind is a free-to-use custom css library designed to provide simple and nice-looking utility classes for web design based on the colors found in the mfer nft collection.
+mferwind is a free-to-use custom css library designed to provide simple and nice-looking utility classes for web design based on the colors found in the mfer collection.
 
 ## features
 
@@ -46,10 +46,21 @@ mferwind includes classes for styles and utilities, such as:
 * layout (flex, centering, etc)
 * font utility (applying sartoshi script)
 * background color
-* text color
+* text color & size
 * border colors & styles
 
 
 ## permitted use
 
 you are welcome to use mferwind in any project you like!
+
+you are also welcome to add to the library via pull request if you'd like to contribute :)
+
+
+## future additions
+
+i'm working on adding classes for:
+* grid layout and flexwrapping
+* screen size responsiveness
+* opacity & blur filters
+* hover styles

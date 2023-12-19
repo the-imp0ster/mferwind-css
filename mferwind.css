@@ -7,26 +7,32 @@
     --bg-orange: #ffb470;
     --bg-graveyard: #7c7c7c;
     --bg-space: #898989;
+    /* ape bg is same color as yellow bg */
 
     --black: #000000;
     --white: #FFFFFF;
 
+    /* variable to hold sartoshi font family */
     --sartoshi: sartoshi script;
 
-    /* TODO trait colors, etc */
+    /* texxt size classes are relative to this size */
+    font-size: 16px;
+
+    /* TODO add more trait colors, etc */
     /* i think some mfer (m4rsh?) may have done an api for this */
 
 }
 
-/* import sartoshi script */
+/* SARTOSHI SCRIPT */
 /* sartoshi script (sartoshiscript.xyz) is a cc0 font based on sartoshi's handwriting and was created by mfer @hyreal3 */
 @font-face {
     font-family: 'sartoshi script';
     src: url('SartoshiScript-Regular.otf') format('opentype');
 }
 
+
 /* DISPLAY CLASSES */
-/* flex */
+/* flexbox */
 .flex { display: flex; }
 .flex-r { flex-direction: row; }
 .flex-c { flex-direction: column; }
@@ -36,8 +42,8 @@
 .text-right { text-align: right; }
 .text-left { text-align: left; }
 .items-center { align-items: center; }
-.items-right { align-items: right; }
-.items-left { align-items: left; }
+.items-start { align-items: flex-start; }
+.items-end { align-items: flex-end; }
 
 
 /* justification */
@@ -46,6 +52,10 @@
 .evenly{ justify-content: space-evenly}
 
 /* margin */
+.m-auto { margin: auto; }
+.mx-auto { margin-left: auto; margin-right: auto; }
+.my-auto { margin-top: auto; margin-bottom: auto; }
+
 .m-0 { margin: 0; }
 .m-s { margin: 5px; }
 .m-m { margin: 10px; }
@@ -70,6 +80,17 @@
 .mr-s { margin-right: 5px; }
 .mr-m { margin-right: 10px; }
 .mr-l { margin-right: 15px; }
+
+.mx-0 { margin-left: 0; margin-right: 0; }
+.mx-s { margin-left: 5px; margin-right: 5px; }
+.mx-m { margin-left: 10px; margin-right: 10px; }
+.mx-l { margin-left: 15px; margin-right: 15px; }
+
+.my-0 { margin-top: 0; margin-bottom: 0; }
+.my-s { margin-top: 5px; margin-bottom: 5px; }
+.my-m { margin-top: 10px; margin-bottom: 10px; }
+.my-l { margin-top: 15px; margin-bottom: 15px; }
+
 
 /* padding */
 .p-0 { padding: 0; }
@@ -97,8 +118,26 @@
 .pr-m { padding-right: 10px; }
 .pr-l { padding-right: 15px; }
 
+.px-0 { padding-left: 0; padding-right: 0; }
+.px-s { padding-left: 5px; padding-right: 5px; }
+.px-m { padding-left: 10px; padding-right: 10px; }
+.px-l { padding-left: 15px; padding-right: 15px; }
+
+.py-0 { padding-top: 0; padding-bottom: 0; }
+.py-s { padding-top: 5px; padding-bottom: 5px; }
+.py-m { padding-top: 10px; padding-bottom: 10px; }
+.py-l { padding-top: 15px; padding-bottom: 15px; }
+
+
 /* FONT FAMILY CLASSES */
 .sartoshi {font-family: var(--sartoshi)}
+
+/* TEXT SIZE CLASSES */
+.text-xs { font-size: 0.875rem; }
+.text-s { font-size: 1rem; }
+.text-m { font-size: 1.25rem; }
+.text-l { font-size: 1.5rem; }
+.text-xl { font-size: 2rem; }
 
 /* BACKGROUND COLOR CLASSES */
 .bg-bg-blue { background-color: var(--bg-blue); }
