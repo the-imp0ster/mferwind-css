@@ -9,9 +9,17 @@
     --black: #000000;
     --white: #FFFFFF;
 
+    --sartoshi: sartoshi script;
+
     /* TODO trait colors, etc */
     /* i think m4rsh may have done an api for this */
 
+}
+
+/* import sartoshi script */
+@font-face {
+    font-family: 'sartoshi script';
+    src: url('SartoshiScript-Regular.otf') format('opentype');
 }
 
 /* utility classes for basic display */
@@ -19,6 +27,9 @@
 .flex-r { flex-direction: row; }
 .flex-c { flex-direction: column; }
 .text-center { text-align: center; }
+
+/* utility class for sartoshi script, if u have it */
+.sartoshi {font-family: var(--sartoshi)}
 
 /* utility classes for mferish background color */
 .bg-bg-blue { background-color: var(--bg-blue); }
@@ -42,8 +53,36 @@
 .text-bg-white { color: var(--bg-white); }
 
 
-/* utility classes for borders */
+/* utility classes for bg-blue borders */
+.border-dashed-bg-blue-2 {
+    border: 2px dashed var(--bg-blue);
+}
+.border-dashed-bg-blue-4 {
+    border: 4px dashed var(--bg-blue);
+}
+.border-dashed-bg-blue-6 {
+    border: 6px dashed var(--bg-blue);
+}
+.border-dashed-bg-blue-8 {
+    border: 8px dashed var(--bg-blue);
+}
 .border-dashed-bg-blue-10 {
     border: 10px dashed var(--bg-blue);
+}
+
+.border-dotted-bg-blue-2 {
+    border: 2px dotted var(--bg-blue);
+}
+.border-dotted-bg-blue-4 {
+    border: 4px dotted var(--bg-blue);
+}
+.border-dotted-bg-blue-6 {
+    border: 6px dotted var(--bg-blue);
+}
+.border-dotted-bg-blue-8 {
+    border: 8px dotted var(--bg-blue);
+}
+.border-dotted-bg-blue-10 {
+    border: 10px dotted var(--bg-blue);
 }
 
