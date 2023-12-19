@@ -39,8 +39,8 @@
 .bg-bg-yellow { background-color: var(--bg-yellow); }
 .bg-bg-orange { background-color: var(--bg-orange); }
 .bg-bg-grey { background-color: var(--bg-grey); }
-.bg-bg-black { background-color: var(--bg-black); }
-.bg-bg-white { background-color: var(--bg-white); }
+.bg-black { background-color: var(--black); }
+.bg-white { background-color: var(--white); }
 
 
 /* utility classes for mferish text color */
@@ -50,11 +50,46 @@
 .text-bg-yellow { color: var(--bg-yellow); }
 .text-bg-orange { color: var(--bg-orange); }
 .text-bg-grey { color: var(--bg-grey); }
-.text-bg-black { color: var(--bg-black); }
-.text-bg-white { color: var(--bg-white); }
+.text-black { color: var(--black); }
+.text-white { color: var(--white); }
 
 
 /* utility classes for bg-blue borders */
+
+/* solid */
+.border-solid-bg-blue-2 {
+    border: 2px solid var(--bg-blue);
+}
+.border-solid-bg-blue-4 {
+    border: 4px solid var(--bg-blue);
+}
+.border-solid-bg-blue-6 {
+    border: 6px solid var(--bg-blue);
+}
+.border-solid-bg-blue-8 {
+    border: 8px solid var(--bg-blue);
+}
+.border-solid-bg-blue-10 {
+    border: 10px solid var(--bg-blue);
+}
+
+/* double */
+.border-double-bg-blue-2 {
+    border: 2px double var(--bg-blue);
+}
+.border-double-bg-blue-4 {
+    border: 4px double var(--bg-blue);
+}
+.border-double-bg-blue-6 {
+    border: 6px double var(--bg-blue);
+}
+.border-double-bg-blue-8 {
+    border: 8px double var(--bg-blue);
+}
+.border-double-bg-blue-10 {
+    border: 10px double var(--bg-blue);
+}
+
 /* dashed */
 .border-dashed-bg-blue-2 {
     border: 2px dashed var(--bg-blue);
