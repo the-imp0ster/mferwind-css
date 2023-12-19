@@ -12,11 +12,12 @@
     --sartoshi: sartoshi script;
 
     /* TODO trait colors, etc */
-    /* i think m4rsh may have done an api for this */
+    /* i think some mfer (m4rsh?) may have done an api for this */
 
 }
 
 /* import sartoshi script */
+/* sartoshi script (sartoshiscript.xyz) is a cc0 font based on sartoshi's handwriting and was created by mfer @hyreal3 */
 @font-face {
     font-family: 'sartoshi script';
     src: url('SartoshiScript-Regular.otf') format('opentype');
@@ -54,6 +55,7 @@
 
 
 /* utility classes for bg-blue borders */
+/* dashed */
 .border-dashed-bg-blue-2 {
     border: 2px dashed var(--bg-blue);
 }
@@ -70,6 +72,7 @@
     border: 10px dashed var(--bg-blue);
 }
 
+/* dotted */
 .border-dotted-bg-blue-2 {
     border: 2px dotted var(--bg-blue);
 }
