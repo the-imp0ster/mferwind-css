@@ -15,13 +15,14 @@ mferwind is not yet an npm package, so you'll need to manually grab the css file
 
 luckily, this is a super simple process!
 
-to use mferwind in your project, copy the `mferwind.css` file into your project folder and link to the `mferwind.css` file in the head element of your html:
+to use mferwind in your project, copy the `mferwind.css` file into your project folder and link to it file in the head element of your html:
 
 ```html
 
 <link rel="stylesheet" href="path/to/mferwind.css">
 
 ```
+make sure you also grab the file for the sartoshi script (`SartoshiScript-Regular.otf`) to include in your project folder!
 
 now you can start using mferwind style classes right in your html, like this:
 ```html

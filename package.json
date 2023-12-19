@@ -2,7 +2,7 @@
   "name": "mferwind_css",
   "version": "1.0.0",
   "description": "css utility classes for mferish internet goodies",
-  "main": "index.js",
+  "main": "mferwind.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
