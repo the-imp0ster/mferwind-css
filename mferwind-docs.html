@@ -5,178 +5,227 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="mferwind.css">
-    <title>mferwind docs</title>
+    <title>mferwind css docs</title>
     <style>
-        .demo-box {
-            margin-bottom: 15px;
-            border: 1px solid darkgrey;
-            min-height: 40px;
-        }
-
-        .border-demo-box {
-            margin-bottom: 15px;
-            min-height: 40px;
-        }
-
         body {
-            background-color: gainsboro;
+            font-family: 'Courier New', Courier, monospace;
         }
     </style>
 </head>
 
 <body>
+    <p><a href="./index.html">Home</a></p>
+    <h1>mferwind css documentation</h1>
+    <p>see demo <a href="mferwind-demo.html">here</a>.</p>
 
-    <h2 class="mt-xl mb-m">Background Color Classes</h2>
-    <div class="demo-box bg-bg-blue">.bg-bg-blue</div>
-    <div class="demo-box bg-bg-green">.bg-bg-green</div>
-    <div class="demo-box bg-bg-red">.bg-bg-red</div>
-    <div class="demo-box bg-bg-yellow">.bg-bg-yellow</div>
-    <div class="demo-box bg-bg-orange">.bg-bg-orange</div>
-    <div class="demo-box bg-bg-graveyard">.bg-bg-graveyard</div>
-    <div class="demo-box bg-bg-space">.bg-bg-space</div>
-    <div class="demo-box bg-white">.bg-white</div>
-    <div class="demo-box bg-black text-white">.bg-black</div>
-
-    <h2 class="mt-xl mb-m">Font Classes</h2>
-    <div class=" demo-box sartoshi text-l">.sartoshi</div>
-
-    <h2 class="mt-xl mb-m">Text Size Classes</h2>
-    <div class=" demo-box text-xs">.text-xs</div>
-    <div class=" demo-box text-s">.text-s</div>
-    <div class=" demo-box text-m">.text-m</div>
-    <div class=" demo-box text-l">.text-l</div>
-    <div class=" demo-box text-xl">.text-xl</div>
-
-
-    <h2 class="mt-xl mb-m">Text Color Classes</h2>
-    <div class="demo-box text-bg-blue">.text-bg-blue</div>
-    <div class="demo-box text-bg-green">.text-bg-green</div>
-    <div class="demo-box text-bg-red">.text-bg-red</div>
-    <div class="demo-box text-bg-yellow">.text-bg-yellow</div>
-    <div class="demo-box text-bg-orange">.text-bg-orange</div>
-    <div class="demo-box text-bg-graveyard">.text-bg-graveyard</div>
-    <div class="demo-box text-bg-space">.text-bg-space</div>
-    <div class="demo-box text-black">.text-black</div>
-    <div class="demo-box text-white">.text-white</div>
-
-
-    <h2 class="mt-xl mb-m">Flex & Justification Classes</h2>
-    <div class="demo-box flex flex-r between">
-        <p>.flex flex-r</p>
-        <p>.between</p>
-    </div>
-    <div class="demo-box flex flex-r around">
-        <p>.flex flex-r</p>
-        <p>.around</p>
-    </div>
-    <div class="demo-box flex flex-r evenly">
-        <p>.flex flex-r</p>
-        <p>.evenly</p>
-    </div>
-    <div class="demo-box flex flex-c">
-        <p>.flex flex-c</p>
-        <p>makes a column</p>
-    </div>
-
-    <h2 class="mt-xl mb-m">Text Alignment Classes</h2>
-    <div class="demo-box text-right">.text-right</div>
-    <div class="demo-box text-left">.text-left</div>
-    <div class="demo-box text-center">.text-center</div>
-
-    <h2 class="mt-xl mb-m">Item Alignment Classes</h2>
-    <div class="demo-box flex flex-c items-start">
-        <p>.items-start</p>
-        <img src="7332.png" width="50">
-    </div>
-    <div class="demo-box flex flex-c items-end">
-        <p>.items-end</p>
-        <img src="7332.png" width="50">
-    </div>
-    <div class="demo-box flex flex-c items-center">
-        <p>.items-center</p>
-    <img src="7332.png" width="50">
-</div>
-
-
-    <h2 class="mt-xl mb-m">Margin Classes</h2>
-    <div class="demo-box m-0">.m-0</div>
-    <div class="demo-box m-s">.m-s</div>
-    <div class="demo-box m-m">.m-m</div>
-    <div class="demo-box m-l">.m-l</div>
-    <details class="demo-box">
-        <summary>left, right, top, and bottom margins, as well as auto styles, are also available with the 0-s-m-l tags:
-        </summary>
-        <ul>
-            <li>.m-auto</li>
-            <li>.mx-auto</li>
-            <li>.my-auto</li>
-            <li>.m-0</li>
-            <li>.m-s</li>
-            <li>.m-m</li>
-            <li>.m-l</li>
-
-            <li>.mb-0</li>
-            <li>.mb-s</li>
-            <li>.mb-m</li>
-            <li>.mb-l</li>
-
-            <li>.mt-0</li>
-            <li>.mt-s</li>
-            <li>.mt-m</li>
-            <li>.mt-l</li>
-
-            <li>.ml-0</li>
-            <li>.ml-s</li>
-            <li>.ml-m</li>
-            <li>.ml-l</li>
-
-            <li>.mr-0</li>
-            <li>.mr-s</li>
-            <li>.mr-m</li>
-            <li>.mr-l</li>
-
-            <li>.mx-0</li>
-            <li>.mx-s</li>
-            <li>.mx-m</li>
-            <li>.mx-l</li>
-
-            <li>.my-0</li>
-            <li>.my-s</li>
-            <li>.my-m</li>
-            <li>.my-l</li>
-
-        </ul>
-
-
-
+    <details>
+        <summary>Color Variables</summary>
+        <p>--bg-blue: Blue mfer background color.</p>
+        <p>--bg-green: Green mfer background color.</p>
+        <p>--bg-red: Green mfer background color.</p>
+        <p>--bg-yellow: Green mfer background color.</p>
+        <p>--bg-orange: Green mfer background color.</p>
+        <p>--bg-graveyard: Zombie mfer background color.</p>
+        <p>--bg-space: Alien mfer background color.</p>
+        <p>--black: Black.</p>
+        <p>--white: White.</p>
+        <p>* Ape bg color is identical to the mfer yellow, so it is not included here as a separate variable.</p>
     </details>
 
-    <h2 class="mt-xl mb-m">Padding Classes</h2>
-    <div class="demo-box p-0">.p-0</div>
-    <div class="demo-box p-s">.p-s</div>
-    <div class="demo-box p-m">.p-m</div>
-    <div class="demo-box p-l">.p-l</div>
+    <details>
+        <summary>Font Family</summary>
+        <p>.sartoshi: Applies the 'sartoshi script' font family.</p>
+    </details>
+
+    <details>
+        <summary>Display Classes</summary>
+        <p>.flex: Sets display property to flex.</p>
+        <p>.flex-r: Sets flex-direction to row.</p>
+        <p>.flex-c: Sets flex-direction to column.</p>
+    </details>
+
+    <details>
+        <summary>Alignment Classes</summary>
+        <p>.text-center: Centers text horizontally.</p>
+        <p>.text-right: Aligns text to the right.</p>
+        <p>.text-left: Aligns text to the left.</p>
+        <p>.items-center: Vertically aligns flex items to the center.</p>
+        <p>.items-start: Aligns flex items to the start of the container's cross axis.</p>
+        <p>.items-end: Aligns flex items to the end of the container's cross axis.</p>
+        <p>.items-baseline: Aligns flex items along their baseline.</p>
+        <p>.items-stretch: Stretches flex items to fill the container.</p>
+    </details>
+
+    <details>
+        <summary>Justification Classes</summary>
+        <p>.between: Distributes items evenly with space between.</p>
+        <p>.around: Distributes items evenly with space around.</p>
+        <p>.evenly: Distributes items evenly with equal space around them.</p>
+    </details>
+
+    <details>
+        <summary>Margin Classes</summary>
+        <p>.m-auto: Sets all margins to auto, centering the element within its container if it's a block element with a
+            specified width.</p>
+        <p>.mx-auto: Sets the left and right margins to auto.</p>
+        <p>.my-auto: Sets the top and bottom margins to auto.</p>
+
+        <p>.m-0: Sets all margins to 0.</p>
+        <p>.m-s: Sets all margins to 5px.</p>
+        <p>.m-m: Sets all margins to 10px.</p>
+        <p>.m-l: Sets all margins to 15px.</p>
+
+        <p>.mb-0: Sets the bottom margin to 0.</p>
+        <p>.mb-s: Sets the bottom margin to 5px.</p>
+        <p>.mb-m: Sets the bottom margin to 10px.</p>
+        <p>.mb-l: Sets the bottom margin to 15px.</p>
+
+        <p>.mt-0: Sets the top margin to 0.</p>
+        <p>.mt-s: Sets the top margin to 5px.</p>
+        <p>.mt-m: Sets the top margin to 10px.</p>
+        <p>.mt-l: Sets the top margin to 15px.</p>
+
+        <p>.ml-0: Sets the left margin to 0.</p>
+        <p>.ml-s: Sets the left margin to 5px.</p>
+        <p>.ml-m: Sets the left margin to 10px.</p>
+        <p>.ml-l: Sets the left margin to 15px.</p>
+
+        <p>.mr-0: Sets the right margin to 0.</p>
+        <p>.mr-s: Sets the right margin to 5px.</p>
+        <p>.mr-m: Sets the right margin to 10px.</p>
+        <p>.mr-l: Sets the right margin to 15px.</p>
+
+        <p>.mx-0: Sets both the left and right margins to 0.</p>
+        <p>.mx-s: Sets both the left and right margins to 5px.</p>
+        <p>.mx-m: Sets both the left and right margins to 10px.</p>
+        <p>.mx-l: Sets both the left and right margins to 15px.</p>
+
+        <p>.my-0: Sets both the top and bottom margins to 0.</p>
+        <p>.my-s: Sets both the top and bottom margins to 5px.</p>
+        <p>.my-m: Sets both the top and bottom margins to 10px.</p>
+        <p>.my-l: Sets both the top and bottom margins to 15px.</p>
+    </details>
+
+    <details>
+        <summary>Padding Classes</summary>
+        <p>.p-0: Sets all padding values to 0.</p>
+        <p>.p-s: Sets all padding values to 5px.</p>
+        <p>.p-m: Sets all padding values to 10px.</p>
+        <p>.p-l: Sets all padding values to 15px.</p>
+
+        <p>.pb-0: Sets the bottom padding to 0.</p>
+        <p>.pb-s: Sets the bottom padding to 5px.</p>
+        <p>.pb-m: Sets the bottom padding to 10px.</p>
+        <p>.pb-l: Sets the bottom padding to 15px.</p>
+
+        <p>.pt-0: Sets the top padding to 0.</p>
+        <p>.pt-s: Sets the top padding to 5px.</p>
+        <p>.pt-m: Sets the top padding to 10px.</p>
+        <p>.pt-l: Sets the top padding to 15px.</p>
+
+        <p>.pl-0: Sets the left padding to 0.</p>
+        <p>.pl-s: Sets the left padding to 5px.</p>
+        <p>.pl-m: Sets the left padding to 10px.</p>
+        <p>.pl-l: Sets the left padding to 15px.</p>
+
+        <p>.pr-0: Sets the right padding to 0.</p>
+        <p>.pr-s: Sets the right padding to 5px.</p>
+        <p>.pr-m: Sets the right padding to 10px.</p>
+        <p>.pr-l: Sets the right padding to 15px.</p>
+
+        <p>.px-0: Sets both the left and right padding to 0.</p>
+        <p>.px-s: Sets both the left and right padding to 5px.</p>
+        <p>.px-m: Sets both the left and right padding to 10px.</p>
+        <p>.px-l: Sets both the left and right padding to 15px.</p>
+
+        <p>.py-0: Sets both the top and bottom padding to 0.</p>
+        <p>.py-s: Sets both the top and bottom padding to 5px.</p>
+        <p>.py-m: Sets both the top and bottom padding to 10px.</p>
+        <p>.py-l: Sets both the top and bottom padding to 15px.</p>
+    </details>
+
+    <details>
+        <summary>Text Size Classes</summary>
+        <p>.text-xs: Sets the font size to 0.875rem. This size is slightly smaller than the default text size, ideal for
+            less prominent text.</p>
+        <p>.text-s: Sets the font size to 1rem, which is typically the standard text size (equivalent to 16px if the
+            root font-size is 16px).</p>
+        <p>.text-m: Sets the font size to 1.25rem. This size is slightly larger than the default, suitable for
+            moderately emphasized text.</p>
+        <p>.text-l: Sets the font size to 1.5rem. This size is larger, ideal for subheadings or important text.</p>
+        <p>.text-xl: Sets the font size to 2rem, which is significantly larger, suitable for main headings or key
+            information.</p>
+    </details>
+
+    <details>
+        <summary>Background Color Classes</summary>
+        <p>.bg-bg-blue: Applies a blue background color (#5dd3ff).</p>
+        <p>.bg-bg-green: Applies a green background color (#cafe80).</p>
+        <p>.bg-bg-red: Applies a red background color (#ff7077).</p>
+        <p>.bg-bg-yellow: Applies a yellow background color (#ffe260).</p>
+        <p>.bg-bg-orange: Applies an orange background color (#ffb470).</p>
+        <p>.bg-bg-graveyard: Applies the zombie gray background color (#7c7c7c).</p>
+        <p>.bg-bg-space: Applies the alien grey background color (#898989).</p>
+        <p>.bg-black: Applies a black background color (#000000).</p>
+        <p>.bg-white: Applies a white background color (#FFFFFF).</p>
+    </details>
+
+    <details>
+        <summary>Text Color Classes</summary>
+        <p>.text-bg-blue: Sets the text color to the blue mfer background color (#5dd3ff).</p>
+        <p>.text-bg-green: Sets the text color to the green mfer background color (#cafe80).</p>
+        <p>.text-bg-red: Sets the text color to the red mfer background color (#ff7077).</p>
+        <p>.text-bg-yellow: Sets the text color to the yellow mfer background color (#ffe260).</p>
+        <p>.text-bg-orange: Sets the text color to the orange mfer background color (#ffb470).</p>
+        <p>.text-bg-graveyard: Sets the text color to the zombie mfer background grey (#7c7c7c).</p>
+        <p>.text-bg-space: Sets the text color to the alien mfer background grey (#898989).</p>
+        <p>.text-black: Sets the text color to black (#000000).</p>
+        <p>.text-white: Sets the text color to white (#FFFFFF).</p>
+    </details>
+
+    <details>
+        <summary>Border Size Classes</summary>
+        <p>.border-xs: Applies a border with a thickness of 1px.</p>
+        <p>.border-s: Applies a border with a thickness of 5px.</p>
+        <p>.border-m: Applies a border with a thickness of 8px.</p>
+        <p>.border-l: Applies a border with a thickness of 10px.</p>
+        <p>.border-xl: Applies a border with a thickness of 13px.</p>
+    </details>
+
+    <details>
+        <summary>Border Style Classes</summary>
+        <p>.solid: Applies a solid border style.</p>
+        <p>.dotted: Applies a dotted border style.</p>
+        <p>.dashed: Applies a dashed border style.</p>
+        <p>.double: Applies a double border style.</p>
+        <p>.groove: Applies a groove border style, giving the appearance of a carved line.</p>
+        <p>.ridge: Applies a ridge border style, giving the appearance of a protruding line.</p>
+        <p>.inset: Applies an inset border style, giving the appearance of an embedded element.</p>
+        <p>.outset: Applies an outset border style, giving the appearance of a raised element.</p>
+    </details>
+
+    <details>
+        <summary>Border Color Classes</summary>
+        <p>.border-bg-blue: Applies a blue border color (#5dd3ff).</p>
+        <p>.border-bg-green: Applies a green border color (#cafe80).</p>
+        <p>.border-bg-red: Applies a red border color (#ff7077).</p>
+        <p>.border-bg-yellow: Applies a yellow border color (#ffe260).</p>
+        <p>.border-bg-orange: Applies an orange border color (#ffb470).</p>
+        <p>.border-bg-graveyard: Applies the zombie grey color to the border (#7c7c7c).</p>
+        <p>.border-bg-space: Applies the alien grey color to the border (#898989).</p>
+        <p>.border-black: Applies a black border color (#000000).</p>
+        <p>.border-white: Applies a white border color (#FFFFFF).</p>
+    </details>
 
 
-    <h2 class="mt-xl mb-m">Border Classes</h2>
-    <div class="border-demo-box border-xs border-black solid">.border-xl border-black solid</div>
-    <div class="border-demo-box border-s border-bg-blue dotted">.border-xs border-bg-blue dotted</div>
-    <div class="border-demo-box border-m border-bg-green dashed">.border-s border-bg-green dashed</div>
-    <div class="border-demo-box border-l border-bg-yellow double">.border-l border-bg-yellow double</div>
-    <div class="border-demo-box border-xl border-bg-orange groove">.border-xl border-bg-orange groove</div>
-    <div class="border-demo-box border-xl border-bg-graveyard ridge">.border-xl border-bg-graveyard ridge</div>
-    <div class="border-demo-box border-xl border-bg-space solid">.border-xl border-bg-space solid</div>
-    <div class="border-demo-box border-xl border-bg-red inset">.border-m border-bg-red inset</div>
-    <div class="border-demo-box border-xl border-white outset">.border-xl border-bg-white outset</div>
-
-    <div class="demo-box radius-s">.radius-s</div>
-    <div class="demo-box radius-m">.radius-m</div>
-    <div class="demo-box radius-l">.radius-l</div>
-    <div class="demo-box radius-spicy">.radius-spicy</div>
-    <div class="demo-box radius-round text-center">.radius-round</div>
-
-
-
+    <details>
+        <summary>Border Radius Classes</summary>
+        <p>.radius-s: Applies a 5px border radius on all corners.</p>
+        <p>.radius-m: Applies a 10px border radius on all corners.</p>
+        <p>.radius-l: Applies a 15px border radius on all corners.</p>
+        <p>.radius-spicy: Applies a (2px 20px) border radius.</p>
+        <p>.radius-round: Applies a 50% border radius.</p>
+    </details>
 
 
 </body>
