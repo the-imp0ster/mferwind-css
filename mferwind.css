@@ -21,11 +21,11 @@
     /* variable to hold brush script font family */
     --script: 'Brush Script MT', cursive;
 
-    /* texxt size classes are relative to this size */
+    /* texxt size classes (rem) are relative to this size */
     font-size: 16px;
 
     /* TODO add more trait colors, etc */
-    /* i think some mfer (m4rsh?) may have done an api for this */
+    /* i think some mfer (m4rsh?) may have done smth for this */
 
 }
 
@@ -247,6 +247,35 @@
 .bounce { animation: bounce 1s infinite; }
 .fade-in { animation: fadeIn 3s ease-in; }
 .slide-in { animation: slideIn 1s ease-out; }
+
+/* HOVER CLASSES */
+/* text shadow hovers */
+.hover-text-shadow-blue:hover { text-shadow: 2px 2px 4px var(--bg-blue) }
+.hover-text-shadow-green:hover { text-shadow: 2px 2px 4px var(--bg-green) }
+.hover-text-shadow-red:hover { text-shadow: 2px 2px 4px var(--bg-red) }
+.hover-text-shadow-yellow:hover { text-shadow: 2px 2px 4px var(--bg-yellow) }
+.hover-text-shadow-orange:hover { text-shadow: 2px 2px 4px var(--bg-orange) }
+.hover-text-shadow-graveyard:hover { text-shadow: 2px 2px 4px var(--bg-graveyard) }
+.hover-text-shadow-space:hover { text-shadow: 2px 2px 4px var(--bg-space) }
+.hover-text-shadow-black:hover { text-shadow: 2px 2px 4px var(--black) }
+.hover-text-shadow-white:hover { text-shadow: 2px 2px 4px var(--white) }
+
+.hover-text-icy-rainbow:hover { text-shadow: 2px 2px var(--white), 3px 3px var(--bg-blue), 4px 4px var(--bg-green); }
+
+.hover-text-spicy-rainbow:hover { text-shadow: 2px 2px var(--bg-yellow), 3px 3px var(--bg-orange), 4px 4px var(--bg-red); }
+
+/* box shadow hovers */
+.hover-box-shadow-blue:hover { box-shadow: 4px 4px 8px var(--bg-blue) }
+.hover-box-shadow-green:hover { box-shadow: 4px 4px 8px var(--bg-green) }
+.hover-box-shadow-red:hover { box-shadow: 4px 4px 8px var(--bg-red) }
+.hover-box-shadow-yellow:hover { box-shadow: 4px 4px 8px var(--bg-yellow) }
+.hover-box-shadow-orange:hover { box-shadow: 4px 4px 8px var(--bg-orange) }
+.hover-box-shadow-graveyard:hover { box-shadow: 4px 4px 8px var(--bg-graveyard) }
+.hover-box-shadow-space:hover { box-shadow: 4px 4px 8px var(--bg-space) }
+.hover-box-shadow-black:hover { box-shadow: 4px 4px 8px var(--black) }
+.hover-box-shadow-white:hover { box-shadow: 4px 4px 8px var(--white) }
+
+
 
 
 
