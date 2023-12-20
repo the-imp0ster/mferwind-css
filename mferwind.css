@@ -1,12 +1,12 @@
 :root {
     /* mfer background color variables */
-    --bg-blue: #5dd3ff;
-    --bg-green: #cafe80;
-    --bg-red: #ff7077;
-    --bg-yellow: #ffe260;
-    --bg-orange: #ffb470;
-    --bg-graveyard: #7c7c7c;
-    --bg-space: #898989;
+    --blue: #5dd3ff;
+    --green: #cafe80;
+    --red: #ff7077;
+    --yellow: #ffe260;
+    --orange: #ffb470;
+    --graveyard: #7c7c7c;
+    --space: #898989;
     /* ape bg is same color as yellow bg */
 
     --black: #000000;
@@ -157,25 +157,25 @@
 .text-xl { font-size: 2rem; }
 
 /* BACKGROUND COLOR CLASSES */
-.bg-bg-blue { background-color: var(--bg-blue); }
-.bg-bg-green { background-color: var(--bg-green); }
-.bg-bg-red { background-color: var(--bg-red); }
-.bg-bg-yellow { background-color: var(--bg-yellow); }
-.bg-bg-orange { background-color: var(--bg-orange); }
-.bg-bg-graveyard { background-color: var(--bg-graveyard); }
-.bg-bg-space { background-color: var(--bg-space); }
+.bg-blue { background-color: var(--blue); }
+.bg-green { background-color: var(--green); }
+.bg-red { background-color: var(--red); }
+.bg-yellow { background-color: var(--yellow); }
+.bg-orange { background-color: var(--orange); }
+.bg-graveyard { background-color: var(--graveyard); }
+.bg-space { background-color: var(--space); }
 .bg-black { background-color: var(--black); }
 .bg-white { background-color: var(--white); }
 
 
 /* TEXT COLOR CLASSES */
-.text-bg-blue { color: var(--bg-blue); }
-.text-bg-green { color: var(--bg-green); }
-.text-bg-red { color: var(--bg-red); }
-.text-bg-yellow { color: var(--bg-yellow); }
-.text-bg-orange { color: var(--bg-orange); }
-.text-bg-graveyard { color: var(--bg-graveyard); }
-.text-bg-space { color: var(--bg-space); }
+.text-blue { color: var(--blue); }
+.text-green { color: var(--green); }
+.text-red { color: var(--red); }
+.text-yellow { color: var(--yellow); }
+.text-orange { color: var(--orange); }
+.text-graveyard { color: var(--graveyard); }
+.text-space { color: var(--space); }
 .text-black { color: var(--black); }
 .text-white { color: var(--white); }
 
@@ -200,13 +200,13 @@
 
 
 /* border colors */
-.border-bg-blue { border-color: var(--bg-blue); }
-.border-bg-green { border-color: var(--bg-green); }
-.border-bg-red { border-color: var(--bg-red); }
-.border-bg-yellow { border-color: var(--bg-yellow); }
-.border-bg-orange { border-color: var(--bg-orange); }
-.border-bg-graveyard { border-color: var(--bg-graveyard); }
-.border-bg-space { border-color: var(--bg-space); }
+.border-blue { border-color: var(--blue); }
+.border-green { border-color: var(--green); }
+.border-red { border-color: var(--red); }
+.border-yellow { border-color: var(--yellow); }
+.border-orange { border-color: var(--orange); }
+.border-graveyard { border-color: var(--graveyard); }
+.border-space { border-color: var(--space); }
 .border-black { border-color: var(--black); }
 .border-white { border-color: var(--white); }
 
@@ -250,28 +250,28 @@
 
 /* HOVER CLASSES */
 /* text shadow hovers */
-.hover-text-shadow-blue:hover { text-shadow: 2px 2px 4px var(--bg-blue) }
-.hover-text-shadow-green:hover { text-shadow: 2px 2px 4px var(--bg-green) }
-.hover-text-shadow-red:hover { text-shadow: 2px 2px 4px var(--bg-red) }
-.hover-text-shadow-yellow:hover { text-shadow: 2px 2px 4px var(--bg-yellow) }
-.hover-text-shadow-orange:hover { text-shadow: 2px 2px 4px var(--bg-orange) }
-.hover-text-shadow-graveyard:hover { text-shadow: 2px 2px 4px var(--bg-graveyard) }
-.hover-text-shadow-space:hover { text-shadow: 2px 2px 4px var(--bg-space) }
+.hover-text-shadow-blue:hover { text-shadow: 2px 2px 4px var(--blue) }
+.hover-text-shadow-green:hover { text-shadow: 2px 2px 4px var(--green) }
+.hover-text-shadow-red:hover { text-shadow: 2px 2px 4px var(--red) }
+.hover-text-shadow-yellow:hover { text-shadow: 2px 2px 4px var(--yellow) }
+.hover-text-shadow-orange:hover { text-shadow: 2px 2px 4px var(--orange) }
+.hover-text-shadow-graveyard:hover { text-shadow: 2px 2px 4px var(--graveyard) }
+.hover-text-shadow-space:hover { text-shadow: 2px 2px 4px var(--space) }
 .hover-text-shadow-black:hover { text-shadow: 2px 2px 4px var(--black) }
 .hover-text-shadow-white:hover { text-shadow: 2px 2px 4px var(--white) }
 
-.hover-text-icy-rainbow:hover { text-shadow: 2px 2px var(--white), 3px 3px var(--bg-blue), 4px 4px var(--bg-green); }
+.hover-text-icy-rainbow:hover { text-shadow: 2px 2px var(--white), 3px 3px var(--blue), 4px 4px var(--green); }
 
-.hover-text-spicy-rainbow:hover { text-shadow: 2px 2px var(--bg-yellow), 3px 3px var(--bg-orange), 4px 4px var(--bg-red); }
+.hover-text-spicy-rainbow:hover { text-shadow: 2px 2px var(--yellow), 3px 3px var(--orange), 4px 4px var(--red); }
 
 /* box shadow hovers */
-.hover-box-shadow-blue:hover { box-shadow: 4px 4px 8px var(--bg-blue) }
-.hover-box-shadow-green:hover { box-shadow: 4px 4px 8px var(--bg-green) }
-.hover-box-shadow-red:hover { box-shadow: 4px 4px 8px var(--bg-red) }
-.hover-box-shadow-yellow:hover { box-shadow: 4px 4px 8px var(--bg-yellow) }
-.hover-box-shadow-orange:hover { box-shadow: 4px 4px 8px var(--bg-orange) }
-.hover-box-shadow-graveyard:hover { box-shadow: 4px 4px 8px var(--bg-graveyard) }
-.hover-box-shadow-space:hover { box-shadow: 4px 4px 8px var(--bg-space) }
+.hover-box-shadow-blue:hover { box-shadow: 4px 4px 8px var(--blue) }
+.hover-box-shadow-green:hover { box-shadow: 4px 4px 8px var(--green) }
+.hover-box-shadow-red:hover { box-shadow: 4px 4px 8px var(--red) }
+.hover-box-shadow-yellow:hover { box-shadow: 4px 4px 8px var(--yellow) }
+.hover-box-shadow-orange:hover { box-shadow: 4px 4px 8px var(--orange) }
+.hover-box-shadow-graveyard:hover { box-shadow: 4px 4px 8px var(--graveyard) }
+.hover-box-shadow-space:hover { box-shadow: 4px 4px 8px var(--space) }
 .hover-box-shadow-black:hover { box-shadow: 4px 4px 8px var(--black) }
 .hover-box-shadow-white:hover { box-shadow: 4px 4px 8px var(--white) }
 

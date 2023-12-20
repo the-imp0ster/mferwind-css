@@ -26,7 +26,7 @@ make sure you also grab the file for the sartoshi script (`SartoshiScript-Regula
 
 now you can start using mferwind style classes right in your html, like this:
 ```html
-<div class="bg-bg-green sartoshi">
+<div class="bg-green sartoshi">
 ```
 
 the example above provides a green background to the div and applies the sartoshi font family to any text present in the div.
