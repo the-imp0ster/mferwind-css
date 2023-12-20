@@ -183,6 +183,10 @@
 .text-l { font-size: 1.5rem; }
 .text-xl { font-size: 2rem; }
 
+/* FONT ITALIC/BOLD CLASSES */
+.italic { font-style: italic; }
+.bold { font-weight: bold; }
+
 /* BACKGROUND COLOR CLASSES */
 .bg-blue { background-color: var(--blue); }
 .bg-green { background-color: var(--green); }
@@ -267,6 +271,11 @@
     from { transform: translateX(-100%); }
     to { transform: translateX(0); }
 }
+@keyframes shimmer {
+    from { filter: hue-rotate(0deg); }
+    to { filter: hue-rotate(360deg); }
+}
+
 
 /* animation classes */
 .rotate { animation: rotate360 5s linear infinite; }
@@ -274,6 +283,7 @@
 .bounce { animation: bounce 1s infinite; }
 .fade-in { animation: fadeIn 3s ease-in; }
 .slide-in { animation: slideIn 1s ease-out; }
+.shimmer { animation: shimmer 2s infinite linear; }
 
 /* HOVER CLASSES */
 /* text shadow hovers */
@@ -303,6 +313,28 @@
 .hover-box-shadow-white:hover { box-shadow: 4px 4px 8px var(--white) }
 
 
+/* APPEARANCE MANIPULATION */
+/* invert */
+.invert { filter: invert(1); }
+
+/* sepia */
+.sepia { filter: sepia(1) }
+.sepia-half { filter: sepia(50%)}
+
+/* blur */
+.blur-xs { filter: blur(.05rem); }
+.blur-s { filter: blur(0.1rem); }
+.blur-m { filter: blur(0.15rem); }
+.blur-l { filter: blur(0.2rem); }
+.blur-xl { filter: blur(0.25rem); }
+
+/* opacity */
+.opacity-half { filter: opacity(50%); }
+.invisible { filter: opacity(0); }
+
+/* black & white (no saturation) */
+.bw { filter: saturate(0); }
+.bw-half { filter: saturate(50%); }
 
 
 
