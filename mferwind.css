@@ -105,36 +105,43 @@
 .p-s { padding: 5px; }
 .p-m { padding: 10px; }
 .p-l { padding: 15px; }
+.p-xl { padding: 20px; }
 
 .pb-0 { padding-bottom: 0; }
 .pb-s { padding-bottom: 5px; }
 .pb-m { padding-bottom: 10px; }
 .pb-l { padding-bottom: 15px; }
+.pb-xl { padding-bottom: 20px; }
 
 .pt-0 { padding-top: 0; }
 .pt-s { padding-top: 5px; }
 .pt-m { padding-top: 10px; }
 .pt-l { padding-top: 15px; }
+.pt-xl { padding-top: 20px; }
 
 .pl-0 { padding-left: 0; }
 .pl-s { padding-left: 5px; }
 .pl-m { padding-left: 10px; }
 .pl-l { padding-left: 15px; }
+.pl-xl { padding-left: 20px; }
 
 .pr-0 { padding-right: 0; }
 .pr-s { padding-right: 5px; }
 .pr-m { padding-right: 10px; }
 .pr-l { padding-right: 15px; }
+.pr-xl { padding-right: 20px; }
 
 .px-0 { padding-left: 0; padding-right: 0; }
 .px-s { padding-left: 5px; padding-right: 5px; }
 .px-m { padding-left: 10px; padding-right: 10px; }
 .px-l { padding-left: 15px; padding-right: 15px; }
+.px-xl { padding-left: 20px; padding-right: 20px; }
 
 .py-0 { padding-top: 0; padding-bottom: 0; }
 .py-s { padding-top: 5px; padding-bottom: 5px; }
 .py-m { padding-top: 10px; padding-bottom: 10px; }
 .py-l { padding-top: 15px; padding-bottom: 15px; }
+.py-xl { padding-top: 20px; padding-bottom: 20px; }
 
 
 /* FONT FAMILY CLASSES */
@@ -211,6 +218,7 @@
 .radius-round { border-radius: 50%; }
 
 /* ANIMATION CLASSES */
+/* keyframes */
 @keyframes rotate360 {
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
@@ -233,6 +241,7 @@
     to { transform: translateX(0); }
 }
 
+/* animation classes */
 .rotate { animation: rotate360 5s linear infinite; }
 .pulse { animation: pulse 2s ease-in-out infinite; }
 .bounce { animation: bounce 1s infinite; }

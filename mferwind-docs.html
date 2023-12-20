@@ -18,7 +18,40 @@
     <h1>mferwind css documentation</h1>
     <p>see demo <a href="mferwind-demo.html">here</a>.</p>
 
-    <details>
+    <details class="border-xs solid border-bg-graveyard my-l px-m radius-s">
+        <summary>Installation</summary>
+        <p>mferwind css is not yet an npm package, so you'll need to manually grab the css file from <a
+                href="https://github.com/the-imp0ster/mferwind-css">this</a> repo to make use of
+            the framework.</p>
+
+        <p>Luckily, this is a super simple process!</p>
+
+        <p>To use mferwind in your project, copy the mferwind.css file into your project folder and link to it file in
+            the
+            head element of your html:</p>
+
+        <p class="text-xs">
+
+            link rel="stylesheet" href="path/to/mferwind.css"
+        </p>
+        <p>Make sure you also grab the file for the sartoshi script (SartoshiScript-Regular.otf) to include in your
+            project
+            folder!</p>
+
+        <p>Now you can start using mferwind style classes right in your html, like this:</p>
+
+        <p class="text-xs">
+            div class="bg-bg-green sartoshi"
+        </p>
+
+        <p class="bg-bg-green sartoshi">example text with above style classes applied</p>
+        <p>The example above provides a green background to the div and applies the sartoshi font family to any text
+        present in the div.</p>
+
+
+    </details>
+
+    <details class="border-xs solid border-bg-graveyard my-l px-m radius-s">
         <summary>Color Variables</summary>
         <p>--bg-blue: Blue mfer background color.</p>
         <p>--bg-green: Green mfer background color.</p>
@@ -29,24 +62,24 @@
         <p>--bg-space: Alien mfer background color.</p>
         <p>--black: Black.</p>
         <p>--white: White.</p>
-        <p>* Ape bg color is identical to the mfer yellow, so it is not included here as a separate variable.</p>
+        <p class="text-xs">* Ape bg color is identical to the bg-yellow, so it is not included here as a separate variable.</p>
     </details>
 
-    <details>
+    <details class="border-xs solid border-bg-graveyard my-l px-m radius-s">
         <summary>Font Face Classes</summary>
         <p>.sartoshi: Applies the 'sartoshi script' font family.</p>
-        <p>.monospace: Applies a monospace font family (Courier, etc).</p> 
+        <p>.monospace: Applies a monospace font family (Courier, etc).</p>
         <p>.script: Applies a brush script/cursive font family. </p>
     </details>
 
-    <details>
+    <details class="border-xs solid border-bg-graveyard my-l px-m radius-s">
         <summary>Display Classes</summary>
         <p>.flex: Sets display property to flex.</p>
         <p>.flex-r: Sets flex-direction to row.</p>
         <p>.flex-c: Sets flex-direction to column.</p>
     </details>
 
-    <details>
+    <details class="border-xs solid border-bg-graveyard my-l px-m radius-s">
         <summary>Alignment Classes</summary>
         <p>.text-center: Centers text horizontally.</p>
         <p>.text-right: Aligns text to the right.</p>
@@ -58,14 +91,14 @@
         <p>.items-stretch: Stretches flex items to fill the container.</p>
     </details>
 
-    <details>
+    <details class="border-xs solid border-bg-graveyard my-l px-m radius-s">
         <summary>Justification Classes</summary>
         <p>.between: Distributes items evenly with space between.</p>
         <p>.around: Distributes items evenly with space around.</p>
         <p>.evenly: Distributes items evenly with equal space around them.</p>
     </details>
 
-    <details>
+    <details class="border-xs solid border-bg-graveyard my-l px-m radius-s">
         <summary>Margin Classes</summary>
         <p>.m-auto: Sets all margins to auto, centering the element within its container if it's a block element with a
             specified width.</p>
@@ -108,45 +141,52 @@
         <p>.my-l: Sets both the top and bottom margins to 15px.</p>
     </details>
 
-    <details>
+    <details class="border-xs solid border-bg-graveyard my-l px-m radius-s">
         <summary>Padding Classes</summary>
         <p>.p-0: Sets all padding values to 0.</p>
         <p>.p-s: Sets all padding values to 5px.</p>
         <p>.p-m: Sets all padding values to 10px.</p>
         <p>.p-l: Sets all padding values to 15px.</p>
+        <p>.p-xl: Sets all padding values to 20px.</p>
 
         <p>.pb-0: Sets the bottom padding to 0.</p>
         <p>.pb-s: Sets the bottom padding to 5px.</p>
         <p>.pb-m: Sets the bottom padding to 10px.</p>
         <p>.pb-l: Sets the bottom padding to 15px.</p>
+        <p>.pb-xl: Sets the bottom padding to 20px.</p>
 
         <p>.pt-0: Sets the top padding to 0.</p>
         <p>.pt-s: Sets the top padding to 5px.</p>
         <p>.pt-m: Sets the top padding to 10px.</p>
         <p>.pt-l: Sets the top padding to 15px.</p>
+        <p>.pt-xl: Sets the top padding to 20px.</p>
 
         <p>.pl-0: Sets the left padding to 0.</p>
         <p>.pl-s: Sets the left padding to 5px.</p>
         <p>.pl-m: Sets the left padding to 10px.</p>
         <p>.pl-l: Sets the left padding to 15px.</p>
+        <p>.pl-xl: Sets the left padding to 20px.</p>
 
         <p>.pr-0: Sets the right padding to 0.</p>
         <p>.pr-s: Sets the right padding to 5px.</p>
         <p>.pr-m: Sets the right padding to 10px.</p>
         <p>.pr-l: Sets the right padding to 15px.</p>
+        <p>.pr-xl: Sets the right padding to 20px.</p>
 
         <p>.px-0: Sets both the left and right padding to 0.</p>
         <p>.px-s: Sets both the left and right padding to 5px.</p>
         <p>.px-m: Sets both the left and right padding to 10px.</p>
         <p>.px-l: Sets both the left and right padding to 15px.</p>
+        <p>.px-xl: Sets both the left and right padding to 20px.</p>
 
         <p>.py-0: Sets both the top and bottom padding to 0.</p>
         <p>.py-s: Sets both the top and bottom padding to 5px.</p>
         <p>.py-m: Sets both the top and bottom padding to 10px.</p>
         <p>.py-l: Sets both the top and bottom padding to 15px.</p>
+        <p>.py-xl: Sets both the top and bottom padding to 20px.</p>
     </details>
 
-    <details>
+    <details class="border-xs solid border-bg-graveyard my-l px-m radius-s">
         <summary>Text Size Classes</summary>
         <p>.text-xs: Sets the font size to 0.875rem. This size is slightly smaller than the default text size, ideal for
             less prominent text.</p>
@@ -159,7 +199,7 @@
             information.</p>
     </details>
 
-    <details>
+    <details class="border-xs solid border-bg-graveyard my-l px-m radius-s">
         <summary>Background Color Classes</summary>
         <p>.bg-bg-blue: Applies a blue background color (#5dd3ff).</p>
         <p>.bg-bg-green: Applies a green background color (#cafe80).</p>
@@ -172,7 +212,7 @@
         <p>.bg-white: Applies a white background color (#FFFFFF).</p>
     </details>
 
-    <details>
+    <details class="border-xs solid border-bg-graveyard my-l px-m radius-s">
         <summary>Text Color Classes</summary>
         <p>.text-bg-blue: Sets the text color to the blue mfer background color (#5dd3ff).</p>
         <p>.text-bg-green: Sets the text color to the green mfer background color (#cafe80).</p>
@@ -185,7 +225,7 @@
         <p>.text-white: Sets the text color to white (#FFFFFF).</p>
     </details>
 
-    <details>
+    <details class="border-xs solid border-bg-graveyard my-l px-m radius-s">
         <summary>Border Size Classes</summary>
         <p>.border-xs: Applies a border with a thickness of 1px.</p>
         <p>.border-s: Applies a border with a thickness of 5px.</p>
@@ -194,7 +234,7 @@
         <p>.border-xl: Applies a border with a thickness of 13px.</p>
     </details>
 
-    <details>
+    <details class="border-xs solid border-bg-graveyard my-l px-m radius-s">
         <summary>Border Style Classes</summary>
         <p>.solid: Applies a solid border style.</p>
         <p>.dotted: Applies a dotted border style.</p>
@@ -206,7 +246,7 @@
         <p>.outset: Applies an outset border style, giving the appearance of a raised element.</p>
     </details>
 
-    <details>
+    <details class="border-xs solid border-bg-graveyard my-l px-m radius-s">
         <summary>Border Color Classes</summary>
         <p>.border-bg-blue: Applies a blue border color (#5dd3ff).</p>
         <p>.border-bg-green: Applies a green border color (#cafe80).</p>
@@ -220,7 +260,7 @@
     </details>
 
 
-    <details>
+    <details class="border-xs solid border-bg-graveyard my-l px-m radius-s">
         <summary>Border Radius Classes</summary>
         <p>.radius-s: Applies a 5px border radius on all corners.</p>
         <p>.radius-m: Applies a 10px border radius on all corners.</p>
@@ -229,13 +269,14 @@
         <p>.radius-round: Applies a 50% border radius.</p>
     </details>
 
-    <details>
+    <details class="border-xs solid border-bg-graveyard my-l px-m radius-s">
         <summary>Animation Classes</summary>
         <p>.rotate: Applies a 360 degree, 5-second infinite clockwise rotation.</p>
         <p>.pulse: Applies a cute 2-second infinite grow-shrink animation.</p>
-        <p>.bounce: Applies a 1-second infinite smooth bouncing animation.</p> 
+        <p>.bounce: Applies a 1-second infinite smooth bouncing animation.</p>
         <p>.fade-in: Applies a single 1-second animation from invisible to visible.</p>
-        <p>.slide-in: Applies a single 1-second horizontal translation from the left to the item's final location on the page.</p>
+        <p>.slide-in: Applies a single 1-second horizontal translation from the left to the item's final location on the
+            page.</p>
     </details>
 
 

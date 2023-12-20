@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="mferwind.css">
-    <title>mferwind docs</title>
+    <title>mferwind demo</title>
     <style>
         .demo-box {
             margin-bottom: 15px;
@@ -27,7 +27,7 @@
 <body class="monospace">
     <a href="./index.html">home</a>
     <h1>mferwind classes demo</h1>
-    <p>See the full list of classes <a href="./mferwind-docs.html">here</a>.</p>
+    <p class="text-xs">See the full list of classes <a href="./mferwind-docs.html">here</a>.</p>
 
     <h2 class="mt-xl mb-m">Background Color Classes</h2>
     <div class="demo-box bg-bg-blue">.bg-bg-blue</div>
@@ -108,15 +108,39 @@
     <div class="demo-box m-s">.m-s</div>
     <div class="demo-box m-m">.m-m</div>
     <div class="demo-box m-l">.m-l</div>
-    
+
     <h2 class="mt-xl mb-m">Padding Classes</h2>
     <div class="demo-box p-0">.p-0</div>
     <div class="demo-box p-s">.p-s</div>
     <div class="demo-box p-m">.p-m</div>
     <div class="demo-box p-l">.p-l</div>
+    <div class="demo-box p-xl">.p-xl</div>
 
 
     <h2 class="mt-xl mb-m">Border Classes</h2>
+    <div id="radiusDemo" class="flex flex-r between">
+
+        <div class="border-demo-box text-center flex flex-c">
+            <p>.radius-s</p>
+            <img src="./7332.png" width="75" class="radius-s ml-l border-black solid border-xs">
+        </div>
+        <div class="border-demo-box text-center flex flex-c">
+            <p>.radius-m</p>
+            <img src="./7332.png" width="75" class="radius-m ml-l border-black solid border-xs">
+        </div>
+        <div class="border-demo-box text-center flex flex-c">
+            <p>.radius-l</p>
+            <img src="./7332.png" width="75" class="radius-l ml-l border-black solid border-xs">
+        </div>
+        <div class="border-demo-box text-center flex flex-c">
+            <p>.radius-spicy</p>
+            <img src="./7332.png" width="75" class="radius-spicy ml-l border-black solid border-xs">
+        </div>
+        <div class="border-demo-box text-center flex flex-c">
+            <p>.radius-round</p>
+            <img src="./7332.png" width="75" class="radius-round ml-l border-black solid border-xs">
+        </div>
+    </div>
     <div class="border-demo-box border-xs border-black solid">.border-xs border-black solid</div>
     <div class="border-demo-box border-s border-bg-blue dotted">.border-s border-bg-blue dotted</div>
     <div class="border-demo-box border-m border-bg-green dashed">.border-m border-bg-green dashed</div>
@@ -127,11 +151,6 @@
     <div class="border-demo-box border-xl border-bg-red inset">.border-xl border-bg-red inset</div>
     <div class="border-demo-box border-xl border-white outset">.border-xl border-white outset</div>
 
-    <div class="demo-box radius-s">.radius-s</div>
-    <div class="demo-box radius-m">.radius-m</div>
-    <div class="demo-box radius-l">.radius-l</div>
-    <div class="demo-box radius-spicy">.radius-spicy</div>
-    <div class="demo-box radius-round text-center">.radius-round</div>
 
     <h2 class="mt-xl mb-m">Animation Classes</h2>
     <div id="animationDiv" class="flex flex-r between">
@@ -151,12 +170,14 @@
         <div class="border-demo-box flex flex-c">
             <p class="my-0">.fade-in</p>
             <p class="my-0">(looped for demo)</p>
-            <img src="./7332.png" alt="mfer 7332" width="50" class="fade-in ml-l" style="animation-iteration-count: infinite;">
+            <img src="./7332.png" alt="mfer 7332" width="50" class="fade-in ml-l"
+                style="animation-iteration-count: infinite;">
         </div>
         <div class="border-demo-box flex flex-c">
             <p class="my-0">.slide-in</p>
             <p class="my-0">(looped for demo)</p>
-            <img src="./7332.png" alt="mfer 7332" width="50" class="slide-in ml-l" style="animation-iteration-count: infinite;">
+            <img src="./7332.png" alt="mfer 7332" width="50" class="slide-in ml-l"
+                style="animation-iteration-count: infinite;">
         </div>
     </div>
 
