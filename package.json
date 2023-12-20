@@ -1,7 +1,7 @@
 {
   "name": "mferwind_css",
   "version": "1.0.0",
-  "description": "css utility classes for mferish internet goodies",
+  "description": "a growing custom css library for creating internet goodies with a mferish aesthetic",
   "main": "mferwind.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

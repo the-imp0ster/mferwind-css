@@ -20,12 +20,11 @@
 
         body {
             background-color: gainsboro;
-            font-family: 'Courier New', Courier, monospace;
         }
     </style>
 </head>
 
-<body>
+<body class="monospace">
     <a href="./index.html">home</a>
     <h1>mferwind classes demo</h1>
     <p>See the full list of classes <a href="./mferwind-docs.html">here</a>.</p>
@@ -43,6 +42,8 @@
 
     <h2 class="mt-xl mb-m">Font Classes</h2>
     <div class=" demo-box sartoshi text-l">.sartoshi</div>
+    <div class=" demo-box monospace text-s">.monospace</div>
+    <div class="demo-box script text-l">.script</div>
 
     <h2 class="mt-xl mb-m">Text Size Classes</h2>
     <div class=" demo-box text-xs">.text-xs</div>
@@ -124,7 +125,7 @@
     <div class="border-demo-box border-xl border-bg-graveyard ridge">.border-xl border-bg-graveyard ridge</div>
     <div class="border-demo-box border-xl border-bg-space solid">.border-xl border-bg-space solid</div>
     <div class="border-demo-box border-xl border-bg-red inset">.border-xl border-bg-red inset</div>
-    <div class="border-demo-box border-xl border-white outset">.border-xl border-bg-white outset</div>
+    <div class="border-demo-box border-xl border-white outset">.border-xl border-white outset</div>
 
     <div class="demo-box radius-s">.radius-s</div>
     <div class="demo-box radius-m">.radius-m</div>
@@ -132,8 +133,32 @@
     <div class="demo-box radius-spicy">.radius-spicy</div>
     <div class="demo-box radius-round text-center">.radius-round</div>
 
+    <h2 class="mt-xl mb-m">Animation Classes</h2>
+    <div id="animationDiv" class="flex flex-r between">
 
-
+        <div class="border-demo-box flex flex-c">
+            <p>.rotate</p>
+            <img src="./7332.png" alt="mfer 7332" width="50" class="rotate ml-l">
+        </div>
+        <div class="border-demo-box flex flex-c">
+            <p>.pulse</p>
+            <img src="./7332.png" alt="mfer 7332" width="50" class="pulse ml-l">
+        </div>
+        <div class="border-demo-box flex flex-c">
+            <p>.bounce</p>
+            <img src="./7332.png" alt="mfer 7332" width="50" class="bounce ml-l">
+        </div>
+        <div class="border-demo-box flex flex-c">
+            <p class="my-0">.fade-in</p>
+            <p class="my-0">(looped for demo)</p>
+            <img src="./7332.png" alt="mfer 7332" width="50" class="fade-in ml-l" style="animation-iteration-count: infinite;">
+        </div>
+        <div class="border-demo-box flex flex-c">
+            <p class="my-0">.slide-in</p>
+            <p class="my-0">(looped for demo)</p>
+            <img src="./7332.png" alt="mfer 7332" width="50" class="slide-in ml-l" style="animation-iteration-count: infinite;">
+        </div>
+    </div>
 
 
 </body>

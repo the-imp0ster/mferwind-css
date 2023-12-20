@@ -15,6 +15,12 @@
     /* variable to hold sartoshi font family */
     --sartoshi: sartoshi script;
 
+    /* variable to hold monospace font family */
+    --mono: 'Courier New', Courier, monospace;
+
+    /* variable to hold brush script font family */
+    --script: 'Brush Script MT', cursive;
+
     /* texxt size classes are relative to this size */
     font-size: 16px;
 
@@ -132,7 +138,9 @@
 
 
 /* FONT FAMILY CLASSES */
-.sartoshi {font-family: var(--sartoshi)}
+.sartoshi {font-family: var(--sartoshi) }
+.monospace { font-family: var(--mono) }
+.script { font-family: var(--script) }
 
 /* TEXT SIZE CLASSES */
 .text-xs { font-size: 0.875rem; }
@@ -185,33 +193,15 @@
 
 
 /* border colors */
-.border-bg-blue {
-    border-color: var(--bg-blue);
-}
-.border-bg-green {
-    border-color: var(--bg-green);
-}
-.border-bg-red {
-    border-color: var(--bg-red);
-}
-.border-bg-yellow {
-    border-color: var(--bg-yellow);
-}
-.border-bg-orange {
-    border-color: var(--bg-orange);
-}
-.border-bg-graveyard {
-    border-color: var(--bg-graveyard);
-}
-.border-bg-space {
-    border-color: var(--bg-space);
-}
-.border-black {
-    border-color: var(--black);
-}
-.border-white {
-    border-color: var(--white);
-}
+.border-bg-blue { border-color: var(--bg-blue); }
+.border-bg-green { border-color: var(--bg-green); }
+.border-bg-red { border-color: var(--bg-red); }
+.border-bg-yellow { border-color: var(--bg-yellow); }
+.border-bg-orange { border-color: var(--bg-orange); }
+.border-bg-graveyard { border-color: var(--bg-graveyard); }
+.border-bg-space { border-color: var(--bg-space); }
+.border-black { border-color: var(--black); }
+.border-white { border-color: var(--white); }
 
 /* border radius */
 .radius-s { border-radius: 5px; }
@@ -219,4 +209,38 @@
 .radius-l { border-radius: 15px; }
 .radius-spicy { border-radius: 2px 20px 2px 20px; }
 .radius-round { border-radius: 50%; }
+
+/* ANIMATION CLASSES */
+@keyframes rotate360 {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes slideIn {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
+
+.rotate { animation: rotate360 5s linear infinite; }
+.pulse { animation: pulse 2s ease-in-out infinite; }
+.bounce { animation: bounce 1s infinite; }
+.fade-in { animation: fadeIn 3s ease-in; }
+.slide-in { animation: slideIn 1s ease-out; }
+
+
+
+
+
 
