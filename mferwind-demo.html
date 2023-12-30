@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="mferwind.css">
     <title>mferwind demo</title>
     <style>
+        body {
+            background-color: gainsboro;
+        }
+
         .demo-box {
             margin-bottom: 15px;
             border: 1px solid darkgrey;
@@ -20,120 +24,139 @@
     </style>
 </head>
 
-<body class="monospace bg-space">
+<body class="monospace m-xl p-xl">
     <a href="./index.html">home</a>
     <h1>mferwind classes demo</h1>
     <p class="text-xs">See the full list of classes <a href="./mferwind-docs.html">here</a>.</p>
 
-    <h2 class="mt-xl mb-m">Background Color Classes</h2>
-    <div class="demo-box bg-blue">.bg-blue</div>
-    <div class="demo-box bg-green">.bg-green</div>
-    <div class="demo-box bg-red">.bg-red</div>
-    <div class="demo-box bg-yellow">.bg-yellow</div>
-    <div class="demo-box bg-orange">.bg-orange</div>
-    <div class="demo-box bg-graveyard">.bg-graveyard</div>
-    <div class="demo-box bg-space">.bg-space</div>
-    <div class="demo-box bg-white">.bg-white</div>
-    <div class="demo-box bg-black text-white">.bg-black</div>
+    <h2 class="mt-xl mb-s">Background Color Classes</h2>
+    <div id="bgColorDiv" class="bricked-up">
+        <div class="demo-box bg-blue">.bg-blue</div>
+        <div class="demo-box bg-green">.bg-green</div>
+        <div class="demo-box bg-red">.bg-red</div>
+        <div class="demo-box bg-yellow">.bg-yellow</div>
+        <div class="demo-box bg-orange">.bg-orange</div>
+        <div class="demo-box bg-graveyard">.bg-graveyard</div>
+        <div class="demo-box bg-space">.bg-space</div>
+        <div class="demo-box bg-white">.bg-white</div>
+        <div class="demo-box bg-black text-white">.bg-black</div>
+    </div>
 
-    <h2 class="mt-xl mb-m">Font Face Classes</h2>
-    <div class=" demo-box sartoshi text-l">.sartoshi</div>
-    <div class=" demo-box monospace text-s">.monospace</div>
-    <div class="demo-box script text-l">.script</div>
+    <h2 class="mt-xl mb-s">Font Face Classes</h2>
+    <div id="fontFaceDiv" class="bricked-up">
+        <div class=" demo-box sartoshi text-l">.sartoshi</div>
+        <div class=" demo-box monospace text-s">.monospace</div>
+        <div class="demo-box script text-l">.script</div>
+    </div>
 
-    <h2 class="mt-xl mb-m">Font Style Classes</h2>
+    <h2 class="mt-xl mb-s">Font Style Classes</h2>
     <div class=" demo-box monospace italic">.italic</div>
 
-    <h2 class="mt-xl mb-m">Font Weight Classes</h2>
+    <h2 class="mt-xl mb-s">Font Weight Classes</h2>
     <div class=" demo-box monospace bold">.bold</div>
 
 
 
-    <h2 class="mt-xl mb-m">Text Size Classes</h2>
-    <div class=" demo-box text-xs">.text-xs</div>
-    <div class=" demo-box text-s">.text-s</div>
-    <div class=" demo-box text-m">.text-m</div>
-    <div class=" demo-box text-l">.text-l</div>
-    <div class=" demo-box text-xl">.text-xl</div>
-
-
-    <h2 class="mt-xl mb-m">Text Color Classes</h2>
-    <div class="demo-box text---blue">.text---blue</div>
-    <div class="demo-box text-green">.text-green</div>
-    <div class="demo-box text-red">.text-red</div>
-    <div class="demo-box text-yellow">.text-yellow</div>
-    <div class="demo-box text-orange">.text-orange</div>
-    <div class="demo-box bg-black text-graveyard">.text-graveyard</div>
-    <div class="demo-box bg-black text-space">.text-space</div>
-    <div class="demo-box text-black">.text-black</div>
-    <div class="demo-box text-white">.text-white</div>
-
-
-    <h2 class="mt-xl mb-m">Text Decoration Classes</h2>
-    <div class="demo-box underline-black">
-        <p>.underline-black</p>
-    </div>
-    <div class="demo-box underline-blue">
-        <p>.underline-blue</p>
-    </div>
-    <div class="demo-box underline-blue-wavy">
-        <p>.underline-blue-wavy</p>
-    </div>
-    <div class="demo-box underline-green">
-        <p>.underline-green</p>
-    </div>
-    <div class="demo-box underline-green-wavy">
-        <p>.underline-green-wavy</p>
-    </div>
-    <div class="demo-box underline-red">
-        <p>.underline-red</p>
-    </div>
-    <div class="demo-box underline-red-wavy">
-        <p>.underline-red-wavy</p>
-    </div>
-    <div class="demo-box underline-yellow">
-        <p>.underline-yellow</p>
-    </div>
-    <div class="demo-box underline-yellow-wavy">
-        <p>.underline-yellow-wavy</p>
-    </div>
-    <div class="demo-box underline-orange">
-        <p>.underline-orange</p>
-    </div>
-    <div class="demo-box underline-orange-wavy">
-        <p>.underline-orange-wavy</p>
-    </div>
-    <div class="demo-box underline-graveyard">
-        <p>.underline-graveyard</p>
-    </div>
-    <div class="demo-box underline-graveyard-wavy">
-        <p>.underline-graveyard-wavy</p>
-    </div>
-    <div class="demo-box bg-graveyard underline-space">
-        <p>.underline-space</p>
-    </div>
-    <div class="demo-box bg-graveyard underline-space-wavy">
-        <p>.underline-space-wavy</p>
-    </div>
-    <div class="demo-box underline-white">
-        <p>.underline-white</p>
-    </div>
-    <div class="demo-box underline-white-wavy">
-        <p>.underline-white-wavy</p>
-    </div>
-    <div class="demo-box underline-black">
-        <p>.underline-black</p>
-    </div>
-    <div class="demo-box underline-black-wavy">
-        <p>.underline-black-wavy</p>
+    <h2 class="mt-xl mb-s">Text Size Classes</h2>
+    <div id="textSizeDiv" class="bricked-up">
+        <div class=" demo-box text-xs">.text-xs</div>
+        <div class=" demo-box text-s">.text-s</div>
+        <div class=" demo-box text-m">.text-m</div>
+        <div class=" demo-box text-l">.text-l</div>
+        <div class=" demo-box text-xl">.text-xl</div>
     </div>
 
-    <h2 class="mt-xl mb-m">Button Component Classes</h2>
-    <button class="button-rainbow">.button-rainbow</button>
-    
+
+    <h2 class="mt-xl mb-s">Text Color Classes</h2>
+    <div id="textColorDiv" class="bricked-up">
+        <div class="demo-box text-blue">.text-blue</div>
+        <div class="demo-box text-green">.text-green</div>
+        <div class="demo-box text-red">.text-red</div>
+        <div class="demo-box text-yellow">.text-yellow</div>
+        <div class="demo-box text-orange">.text-orange</div>
+        <div class="demo-box text-graveyard">.text-graveyard</div>
+        <div class="demo-box text-space">.text-space</div>
+        <div class="demo-box text-black">.text-black</div>
+        <div class="demo-box text-white">.text-white</div>
+    </div>
 
 
-    <h2 class="mt-xl mb-m">Flex, & Justification Classes</h2>
+    <h2 class="mt-xl mb-s">Text Decoration Classes</h2>
+    <div id="textDecorationDiv" class="bricked-up">
+
+        <div class="demo-box underline-black">
+            <p>.underline-black</p>
+        </div>
+        <div class="demo-box underline-black-wavy">
+            <p>.underline-black-wavy</p>
+        </div>
+        <div class="demo-box underline-blue">
+            <p>.underline-blue</p>
+        </div>
+        <div class="demo-box underline-blue-wavy">
+            <p>.underline-blue-wavy</p>
+        </div>
+        <div class="demo-box underline-green">
+            <p>.underline-green</p>
+        </div>
+        <div class="demo-box underline-green-wavy">
+            <p>.underline-green-wavy</p>
+        </div>
+        <div class="demo-box underline-red">
+            <p>.underline-red</p>
+        </div>
+        <div class="demo-box underline-red-wavy">
+            <p>.underline-red-wavy</p>
+        </div>
+        <div class="demo-box underline-yellow">
+            <p>.underline-yellow</p>
+        </div>
+        <div class="demo-box underline-yellow-wavy">
+            <p>.underline-yellow-wavy</p>
+        </div>
+        <div class="demo-box underline-orange">
+            <p>.underline-orange</p>
+        </div>
+        <div class="demo-box underline-orange-wavy">
+            <p>.underline-orange-wavy</p>
+        </div>
+        <div class="demo-box underline-graveyard">
+            <p>.underline-graveyard</p>
+        </div>
+        <div class="demo-box underline-graveyard-wavy">
+            <p>.underline-graveyard-wavy</p>
+        </div>
+        <div class="demo-box underline-space">
+            <p>.underline-space</p>
+        </div>
+        <div class="demo-box underline-space-wavy">
+            <p>.underline-space-wavy</p>
+        </div>
+        <div class="demo-box underline-white">
+            <p>.underline-white</p>
+        </div>
+        <div class="demo-box underline-white-wavy">
+            <p>.underline-white-wavy</p>
+        </div>
+    </div>
+
+    <h2 class="mt-xl mb-s">Button Component Classes</h2>
+    <div id="buttonsDiv" class="bricked-up">
+        <button class="button">.button</button>
+        <button class="button button-blue">.button button-blue</button>
+        <button class="button button-green">.button button-green</button>
+        <button class="button button-red">.button button-red</button>
+        <button class="button button-yellow">.button button-yellow</button>
+        <button class="button button-orange">.button button-orange</button>
+        <button class="button button-graveyard">.button button-graveyard</button>
+        <button class="button button-space">.button button-space</button>
+        <button class="button button-black text-white">.button button-black</button>
+        <button class="button button-white">.button button-white</button>
+        <button class="button button-rainbow">.button button-rainbow</button>
+    </div>
+
+
+    <h2 class="mt-xl mb-s">Flex, & Justification Classes</h2>
     <div class="demo-box flex flex-r between">
         <p>.flex flex-r</p>
         <p>.between</p>
@@ -151,8 +174,9 @@
         <p>makes a column</p>
     </div>
 
-    <h2 class="mt-xl mb-m">Grid Classes</h2>
-    <p class="text-xs">* mferwind css currently uses a responsive auto-fill and auto-size grid layout, with more granular grid control to come.</p>
+    <h2 class="mt-xl mb-s">Grid Classes</h2>
+    <p class="text-xs">* mferwind css currently uses a responsive auto-fill and auto-size grid layout, with more
+        granular grid control to come.</p>
     <div class="bricked-up mb-xl">
         <div>.bricked-up</div>
         <div>item</div>
@@ -163,8 +187,8 @@
     </div>
 
     <div class="bricked-up bricked-up-blue my-xl">
-        <div>.bricked-up-blue</div>
-        <div>item</div>
+        <div>.bricked-up</div>
+        <div>bricked-up-blue</div>
         <div>item</div>
         <div>item</div>
         <div>item</div>
@@ -172,8 +196,8 @@
     </div>
 
     <div class="bricked-up bricked-up-green my-xl">
-        <div>.bricked-up-green</div>
-        <div>item</div>
+        <div>.bricked-up</div>
+        <div>bricked-up-green</div>
         <div>item</div>
         <div>item</div>
         <div>item</div>
@@ -181,8 +205,8 @@
     </div>
 
     <div class="bricked-up bricked-up-red my-xl">
-        <div>.bricked-up-red</div>
-        <div>item</div>
+        <div>.bricked-up</div>
+        <div>bricked-up-red</div>
         <div>item</div>
         <div>item</div>
         <div>item</div>
@@ -190,8 +214,8 @@
     </div>
 
     <div class="bricked-up bricked-up-yellow my-xl">
-        <div>.bricked-up-yellow</div>
-        <div>item</div>
+        <div>.bricked-up</div>
+        <div>bricked-up-yellow</div>
         <div>item</div>
         <div>item</div>
         <div>item</div>
@@ -199,8 +223,8 @@
     </div>
 
     <div class="bricked-up bricked-up-orange my-xl">
-        <div>.bricked-up-orange</div>
-        <div>item</div>
+        <div>.bricked-up</div>
+        <div>bricked-up-orange</div>
         <div>item</div>
         <div>item</div>
         <div>item</div>
@@ -208,8 +232,8 @@
     </div>
 
     <div class="bricked-up bricked-up-graveyard my-xl">
-        <div>.bricked-up-graveyard</div>
-        <div>item</div>
+        <div>.bricked-up</div>
+        <div>bricked-up-graveyard</div>
         <div>item</div>
         <div>item</div>
         <div>item</div>
@@ -217,8 +241,8 @@
     </div>
 
     <div class="bricked-up bricked-up-black my-xl">
-        <div>.bricked-up-black</div>
-        <div>item</div>
+        <div>.bricked-up</div>
+        <div>bricked-up-black</div>
         <div>item</div>
         <div>item</div>
         <div>item</div>
@@ -226,8 +250,8 @@
     </div>
 
     <div class="bricked-up bricked-up-white my-xl">
-        <div>.bricked-up-white</div>
-        <div>item</div>
+        <div>.bricked-up</div>
+        <div>bricked-up-white</div>
         <div>item</div>
         <div>item</div>
         <div>item</div>
@@ -235,12 +259,12 @@
     </div>
 
 
-    <h2 class="mt-xl mb-m">Text Alignment Classes</h2>
+    <h2 class="mt-xl mb-s">Text Alignment Classes</h2>
     <div class="demo-box text-right">.text-right</div>
     <div class="demo-box text-left">.text-left</div>
     <div class="demo-box text-center">.text-center</div>
 
-    <h2 class="mt-xl mb-m">Item Alignment Classes</h2>
+    <h2 class="mt-xl mb-s">Item Alignment Classes</h2>
     <div class="demo-box flex flex-c items-start">
         <p>.items-start</p>
         <img src="7332.png" width="50">
@@ -255,13 +279,13 @@
     </div>
 
 
-    <h2 class="mt-xl mb-m">Margin Classes</h2>
+    <h2 class="mt-xl mb-s">Margin Classes</h2>
     <div class="demo-box m-0">.m-0</div>
     <div class="demo-box m-s">.m-s</div>
     <div class="demo-box m-m">.m-m</div>
     <div class="demo-box m-l">.m-l</div>
 
-    <h2 class="mt-xl mb-m">Padding Classes</h2>
+    <h2 class="mt-xl mb-s">Padding Classes</h2>
     <div class="demo-box p-0">.p-0</div>
     <div class="demo-box p-s">.p-s</div>
     <div class="demo-box p-m">.p-m</div>
@@ -269,41 +293,44 @@
     <div class="demo-box p-xl">.p-xl</div>
 
 
-    <h2 class="mt-xl mb-m">Border Classes</h2>
-    <div id="radiusDemo" class="flex flex-r between">
+    <h2 class="mt-xl mb-s">Border Classes</h2>
+    <div id="radiusDemo" class="flex flex-r between mb-l">
 
         <div class="border-demo-box text-center flex flex-c">
-            <p>.radius-s</p>
+            <p class="mb-0">.radius-s</p>
             <img src="./7332.png" width="75" class="radius-s ml-l border-black solid border-xs">
         </div>
         <div class="border-demo-box text-center flex flex-c">
-            <p>.radius-m</p>
+            <p class="mb-0">.radius-m</p>
             <img src="./7332.png" width="75" class="radius-m ml-l border-black solid border-xs">
         </div>
         <div class="border-demo-box text-center flex flex-c">
-            <p>.radius-l</p>
+            <p class="mb-0">.radius-l</p>
             <img src="./7332.png" width="75" class="radius-l ml-l border-black solid border-xs">
         </div>
         <div class="border-demo-box text-center flex flex-c">
-            <p>.radius-spicy</p>
+            <p class="mb-0">.radius-spicy</p>
             <img src="./7332.png" width="75" class="radius-spicy ml-l border-black solid border-xs">
         </div>
         <div class="border-demo-box text-center flex flex-c">
-            <p>.radius-round</p>
+            <p class="mb-0">.radius-round</p>
             <img src="./7332.png" width="75" class="radius-round ml-l border-black solid border-xs">
         </div>
     </div>
-    <div class="border-demo-box border-xs border-black solid">.border-xs border-black solid</div>
-    <div class="border-demo-box border-s border-blue dotted">.border-s border-blue dotted</div>
-    <div class="border-demo-box border-m border-green dashed">.border-m border-green dashed</div>
-    <div class="border-demo-box border-l border-yellow double">.border-l border-yellow double</div>
-    <div class="border-demo-box border-xl border-orange groove">.border-xl border-orange groove</div>
-    <div class="border-demo-box border-xl border-graveyard ridge">.border-xl border-graveyard ridge</div>
-    <div class="border-demo-box border-xl border-red inset">.border-xl border-red inset</div>
-    <div class="border-demo-box border-xl border-white outset">.border-xl border-white outset</div>
+    <div id="borderStyesDiv" class="bricked-up">
+        <div class="border-demo-box border-xs border-black solid">.border-xs border-black solid</div>
+        <div class="border-demo-box border-s border-blue dotted">.border-s border-blue dotted</div>
+        <div class="border-demo-box border-m border-green dashed">.border-m border-green dashed</div>
+        <div class="border-demo-box border-l border-yellow double">.border-l border-yellow double</div>
+        <div class="border-demo-box border-xl border-orange groove">.border-xl border-orange groove</div>
+        <div class="border-demo-box border-xl border-graveyard ridge">.border-xl border-graveyard ridge</div>
+        <div class="border-demo-box border-xl border-red inset">.border-xl border-red inset</div>
+        <div class="border-demo-box border-xl border-white outset">.border-xl border-white outset</div>
+        <div class="border-demo-box border-m border-space solid">.border-m border-space solid</div>
+    </div>
 
 
-    <h2 class="mt-xl mb-m">Animation Classes</h2>
+    <h2 class="mt-xl mb-s">Animation Classes</h2>
     <div id="animationDiv" class="bricked-up">
 
         <div class="border-demo-box flex flex-c">
@@ -336,7 +363,7 @@
         </div>
     </div>
 
-    <h2 class="mt-xl mb-m">Appearance Manipulation Classes</h2>
+    <h2 class="mt-xl mb-s">Appearance Manipulation Classes</h2>
     <h4>Opacity</h4>
     <div id="opacityDiv" class="bricked-up">
         <figure>
