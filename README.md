@@ -33,7 +33,7 @@ the example above provides a green background to the div and applies the sartosh
 
 ## color variables
 
-mferwind currently consists of 8 custom colors based on the mfer background colors.  more colors from other traits will be added over the next little while.
+mferwind currently consists of 8 custom colors based on the mfer background colors.
 
 ## font integration
 
